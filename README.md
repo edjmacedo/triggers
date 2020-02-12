@@ -1,0 +1,2 @@
+# triggersJSON
+just a sample
