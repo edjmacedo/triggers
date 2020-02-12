@@ -1,8 +1,8 @@
 {
   "streamIds": [
-    "123456",
-    "789101",
-    "121314"
+    "130e0240-49a8-11ea-950f-f7dd87f819a3",
+    "4edb01d0-4c03-11ea-8d2c-3b49faa10b10",
+    "be55d100-4d7c-11ea-8d2c-3b49faa10b10"
   ],
   "deployments": [
     {
@@ -37,7 +37,7 @@
       "solutionId": "10b12680-49a8-11ea-950f-f7dd87f819a3",
       "streamChecksum": "62a660582c2be1c6e2d15885503a5b84",
       "streamId": "130e0240-49a8-11ea-950f-f7dd87f819a3",
-      "streamName": "s",
+      "streamName": "stream01",
       "streamVersion": "0"
     },
     {
@@ -56,7 +56,15 @@
           "timeZone": "Europe/London"
         }
       ],
-      "triggers": [],
+      "triggers": [
+        {
+          "type": "on-complete",
+          "action": "start-deployement",
+          "targets": [
+            "be55d100-4d7c-11ea-8d2c-3b49faa10b10-7qt7q"
+          ]
+        }
+      ],
       "status": "complete",
       "accountId": "fbaee290-49a7-11ea-950f-f7dd87f819a3",
       "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
@@ -64,7 +72,34 @@
       "solutionId": "10b12680-49a8-11ea-950f-f7dd87f819a3",
       "streamChecksum": "320464257d24da2086c6983ec22ed7d2",
       "streamId": "4edb01d0-4c03-11ea-8d2c-3b49faa10b10",
-      "streamName": "test",
+      "streamName": "stream02",
+      "streamVersion": "0"
+    },
+    {
+      "modelName": "Deployment",
+      "id": "be55d100-4d7c-11ea-8d2c-3b49faa10b10-7qt7q",
+      "createdAt": "2020-02-12T09:48:23Z",
+      "startedAt": "2020-02-12T09:48:24.095Z",
+      "completedAt": "2020-02-12T09:48:37Z",
+      "jobId": "1",
+      "schedules": [
+        {
+          "end": "2020-02-12T09:48:23.530Z",
+          "interval": 0,
+          "intervalUnit": "minutes",
+          "start": "2020-02-12T09:48:23.530Z",
+          "timeZone": "Europe/London"
+        }
+      ],
+      "triggers": [],
+      "status": "complete",
+      "accountId": "fbaee290-49a7-11ea-950f-f7dd87f819a3",
+      "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
+      "deployControllerVersion": "v2",
+      "solutionId": "10b12680-49a8-11ea-950f-f7dd87f819a3",
+      "streamChecksum": "7c308a7d73d5871c1cf4f5d86f4478bd",
+      "streamId": "be55d100-4d7c-11ea-8d2c-3b49faa10b10",
+      "streamName": "stream03",
       "streamVersion": "0"
     }
   ],
