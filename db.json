@@ -5,6 +5,7 @@
     "be55d100-4d7c-11ea-8d2c-3b49faa10b10"
   ],
   "deployments": [
+    "deployments": [
     {
       "modelName": "Deployment",
       "id": "b30ce540-4da9-11ea-877e-553f45ccc46c-shmrv",
@@ -101,7 +102,7 @@
       "streamId": "ba6abab0-4da9-11ea-877e-553f45ccc46c",
       "streamName": "stream03",
       "streamVersion": "0"
-    }
+    }]
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
