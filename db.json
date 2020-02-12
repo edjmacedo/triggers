@@ -4,6 +4,70 @@
     "789101",
     "121314"
   ],
+  "deployments": [
+    {
+      "modelName": "Deployment",
+      "id": "130e0240-49a8-11ea-950f-f7dd87f819a3-p2rgb",
+      "createdAt": "2020-02-12T09:29:58Z",
+      "startedAt": "2020-02-12T09:29:59.125Z",
+      "completedAt": "2020-02-12T09:30:13Z",
+      "jobId": "1",
+      "schedules": [
+        {
+          "end": "2020-02-12T09:29:58.390Z",
+          "interval": 0,
+          "intervalUnit": "minutes",
+          "start": "2020-02-12T09:29:58.390Z",
+          "timeZone": "Europe/London"
+        }
+      ],
+      "triggers": [
+        {
+          "type": "on-complete",
+          "action": "start-deployement",
+          "targets": [
+            "4edb01d0-4c03-11ea-8d2c-3b49faa10b10-9s6k8"
+          ]
+        }
+      ],
+      "status": "complete",
+      "accountId": "fbaee290-49a7-11ea-950f-f7dd87f819a3",
+      "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
+      "deployControllerVersion": "v2",
+      "solutionId": "10b12680-49a8-11ea-950f-f7dd87f819a3",
+      "streamChecksum": "62a660582c2be1c6e2d15885503a5b84",
+      "streamId": "130e0240-49a8-11ea-950f-f7dd87f819a3",
+      "streamName": "s",
+      "streamVersion": "0"
+    },
+    {
+      "modelName": "Deployment",
+      "id": "4edb01d0-4c03-11ea-8d2c-3b49faa10b10-9s6k8",
+      "createdAt": "2020-02-12T09:29:45Z",
+      "startedAt": "2020-02-12T09:29:47.108Z",
+      "completedAt": "2020-02-12T09:30:01Z",
+      "jobId": "1",
+      "schedules": [
+        {
+          "end": "2020-02-12T09:29:45.212Z",
+          "interval": 0,
+          "intervalUnit": "minutes",
+          "start": "2020-02-12T09:29:45.212Z",
+          "timeZone": "Europe/London"
+        }
+      ],
+      "triggers": [],
+      "status": "complete",
+      "accountId": "fbaee290-49a7-11ea-950f-f7dd87f819a3",
+      "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
+      "deployControllerVersion": "v2",
+      "solutionId": "10b12680-49a8-11ea-950f-f7dd87f819a3",
+      "streamChecksum": "320464257d24da2086c6983ec22ed7d2",
+      "streamId": "4edb01d0-4c03-11ea-8d2c-3b49faa10b10",
+      "streamName": "test",
+      "streamVersion": "0"
+    }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
