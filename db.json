@@ -4,9 +4,8 @@
     "4edb01d0-4c03-11ea-8d2c-3b49faa10b10",
     "be55d100-4d7c-11ea-8d2c-3b49faa10b10"
   ],
-  "deployments": [
-    "deployments": [
-    {
+  "deploymentObject": [
+    "deployments": [{
       "modelName": "Deployment",
       "id": "b30ce540-4da9-11ea-877e-553f45ccc46c-shmrv",
       "createdAt": "2020-02-12T15:11:08Z",
