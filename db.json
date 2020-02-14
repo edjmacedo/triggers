@@ -56,7 +56,15 @@
           "timeZone": "Europe/London"
         }
       ],
-      "triggers": [],
+      "triggers": [
+        {
+          "type": "on-complete",
+          "action": "start-deployement",
+          "targets": [
+            "ba6abab0-4da9-11ea-877e-553f45ccc46c-h77w6"
+          ]
+        }
+      ],
       "status": "complete",
       "accountId": "1e2f8cd0-de9b-11e8-aeec-f171e9bb9cba",
       "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
@@ -83,15 +91,7 @@
           "timeZone": "Europe/London"
         }
       ],
-      "triggers": [
-        {
-          "type": "on-complete",
-          "action": "start-deployement",
-          "targets": [
-            "b30ce540-4da9-11ea-877e-553f45ccc46c-shmrv"
-          ]
-        }
-      ],
+      "triggers": [],
       "status": "complete",
       "accountId": "1e2f8cd0-de9b-11e8-aeec-f171e9bb9cba",
       "createdBy": "612141e7-2e86-4cfe-8a45-04d5c196a94e",
